@@ -14,8 +14,12 @@ Sandbox for studying TypeScript.
 
 ## Build
 
-    $ gulp
+    $ gulp ts
 
 ## Run
+
+    $ gulp
+
+## Run the compiled Javascript
 
     $ node dist/<any *.js>

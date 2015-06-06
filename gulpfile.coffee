@@ -14,4 +14,4 @@ gulp.task 'ts', ->
     .js
     .pipe gulp.dest './dist'
 
-gulp.task 'default', ['ts']
+gulp.task 'default', ['ts', 'watch']
