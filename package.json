@@ -13,6 +13,7 @@
   "devDependencies": {
     "coffee-script": "^1.9.3",
     "gulp": "^3.9.0",
-    "gulp-typescript": "^2.7.6"
+    "gulp-typescript": "^2.7.6",
+    "gulp-watch": "^4.2.4"
   }
 }

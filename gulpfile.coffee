@@ -1,5 +1,10 @@
 gulp = require 'gulp'
 ts = require 'gulp-typescript'
+watch = require 'gulp-watch'
+
+gulp.task 'watch', ->
+  watch 'src/**/*.ts', ->
+    gulp.start ['ts']
 
 gulp.task 'ts', ->
   gulp.src './src/**/*.ts'
