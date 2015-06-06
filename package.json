@@ -1,0 +1,18 @@
+{
+  "name": "ts-sandbox",
+  "version": "0.0.1",
+  "description": "Sandbox for Typescript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "toshiyukihina",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "^1.9.3",
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.7.6"
+  }
+}
